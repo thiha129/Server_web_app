@@ -1,0 +1,36 @@
+{
+  "name": "serverNode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "bcrypt": "^5.0.1",
+    "body-parse": "^0.1.0",
+    "cloudinary": "^1.27.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "encryption": "^0.0.1",
+    "express": "^4.17.1",
+    "firebase": "^9.4.1",
+    "formidable": "^2.0.1",
+    "gridfs-stream": "^1.1.1",
+    "mongodb": "^4.1.1",
+    "mongoose": "^5.13.13",
+    "multer": "^1.4.3",
+    "multer-gridfs-storage": "^5.0.1",
+    "nodemon": "^2.0.12",
+    "twilio": "^3.67.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0"
+  }
+}
